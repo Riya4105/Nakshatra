@@ -1,0 +1,10 @@
+{
+  "name": "nakshtra-root",
+  "private": true,
+  "workspaces": ["client", "server"],
+  "scripts": {
+    "install:all": "npm --workspace server install && npm --workspace client install",
+    "dev:server": "npm --workspace server run dev",
+    "dev:client": "npm --workspace client run dev"
+  }
+}
